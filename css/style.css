@@ -26,11 +26,28 @@ button, strong {
 
 /* APP BAR */
 
+/* Neu: Channel section*/
+
+#channels
+{
+position: absolute;
+left: 10px;
+height: 120%;
+width: 40%;
+}
+
 /* #4 #sweat address both #app-bar s */
 h1 {
     background-color: #3F51B5;
     color: white;
+    height: 56px;
+    font-size: 24px;
+    font-weight: 100;
+    padding: 8px;
+    display: flex;
+    align-items: center;
 }
+
 
 
 /* CHANNELS LIST */
@@ -64,6 +81,13 @@ li img {
     vertical-align: middle;
 }
 
+span {
+    /* span images*/
+    vertical-align: middle;
+    position: absolute;
+    right: 10px;
+}
+
 /* TAB BAR */
 
 /* #4 #sweat #tab-bar */
@@ -72,7 +96,12 @@ li img {
     background-color: white;
     /* #3 #tab-bar #container has all buttons centered */
     text-align: center;
-}
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+ }
 
 /* #4 add styles to #tab-bar #buttons */
 #tab-bar button {
@@ -98,6 +127,13 @@ li img {
     border-bottom: 4px solid #3F51B5;
 }
 
+#chat
+{
+position: absolute;
+right: 0px;
+height: 100%;
+width: 60%;
+}
 
 /* MESSAGES */
 /* #4 select #specific #messages by class and re-assign element styles according to their #hierarchy in a nested way */
@@ -110,6 +146,7 @@ li img {
 
     /* #4 #message distance to next message container*/
     margin-bottom: 8px;
+    margin-right: 8px;
 }
 
 
@@ -130,16 +167,37 @@ li img {
 .message p {
     background-color: white;
     padding: 16px;
-}
+ }
 
 .message button {
     background-color: #CDDC39;
     color: black;
     text-transform: uppercase;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    right:8px;
 }
+
 
 /* #4 left align own #messages using #margins */
 .message.own {
     margin-left: 17.5%;
-}
+ }
+
+ #chat-bar
+ {
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    padding: 16px;
+    background: white;
+    margin-bottom: 8px;
+    font-size: 28px;
+    text-align: left;
+    position: auto;
+    margin-top: 284x;
+    margin-left: 16px;
+ }
 

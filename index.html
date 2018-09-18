@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="EN">
 <head>
     <meta charset="UTF-8">
     <title>chatter|app</title>
-
+  
     <!-- #4 embed the #roboto #font. This needs to go above your css -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
 
     <!-- #4 #sweat out the styles by creating an #external css -->
     <link rel="stylesheet" href="css/style.css" />
-
     
 </head>
 <body>
@@ -25,26 +24,28 @@
     <ul>
         <li>#Yummy
             <!-- #3 #channels #favorite this is not starred -->
-            <img src="http://ip.lfe.mw.tum.de/sections/star-o.png" alt="not starred">
-        </li>
+            <span><img src="http://ip.lfe.mw.tum.de/sections/star-o.png"  alt="not starred"><strong>&gt;</strong></span>
+         </li>
 
         <!-- #4 #channel is #highlighted -->
         <li class="selected">
             #SevenContinents
             <!-- #3 #channels #favorite this is starred -->
-            <img src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred">
+            <span><img src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred"><strong>&gt;</strong></span>
         </li>
         <li>#KillerApp
             <!-- #3 #channels #favorite this is not starred -->
-            <img src="http://ip.lfe.mw.tum.de/sections/star-o.png" alt="not starred">
+            <span> <img src="http://ip.lfe.mw.tum.de/sections/star-o.png" alt="not starred"> <strong>&gt;</strong></span>
         </li>
+       
         <li>#FirstPersonOnMars
             <!-- #3 #channels #favorite this is starred -->
-            <img src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred">
+            <span> <img src="http://ip.lfe.mw.tum.de/sections/star.png" alt="starred"> <strong>&gt;</strong></span>
         </li>
+      
         <li>#Octoberfest
             <!-- #3 #channels #favorite this is not starred -->
-            <img src="http://ip.lfe.mw.tum.de/sections/star-o.png" alt="not starred">
+            <span> <img src="http://ip.lfe.mw.tum.de/sections/star-o.png" alt="not starred"> <strong>&gt;</strong></span>
         </li>
     </ul>
 
@@ -73,7 +74,7 @@
 <!-- #4 #one #page -->
 <div id="chat">
     <h1>
-        #SevenContinents
+        #SevenContinents&nbsp;
         <small>by
             <strong>cheeses.yard.applies</strong>
         </small>
@@ -91,8 +92,8 @@
             Wed, June 20th, 13:37
             <em>15 min. left</em>
         </h3>
-        <p>What's the place you folks call home?</p>
-        <button>+5 min.</button>
+        <p>What's the place you folks call home?
+        <button>+5 min.</button></p>
     </div>
 
     <!-- #3 #chat #container -->
@@ -106,8 +107,8 @@
             Wed, June 20th, 13:39
             <em>4 min. left</em>
         </h3>
-        <p>BRISBANE! Hang loose!</p>
-        <button>+5 min.</button>
+        <p>BRISBANE! Hang loose!
+        <button>+5 min.</button></p>
     </div>
 
     <!-- #3 #chat #container -->
@@ -121,8 +122,8 @@
             Wed, June 20th, 14:02
             <em>12 min. left</em>
         </h3>
-        <p>The big apple.</p>
-        <button>+5 min.</button>
+        <p>The big apple.
+        <button>+5 min.</button></p>
     </div>
 
     <!-- #3 #chat #container -->
@@ -136,8 +137,8 @@
             Wed, June 20th, 14:02
             <em>7 min. left</em>
         </h3>
-        <p>Eu sou um Cariocas.</p>
-        <button>+5 min.</button>
+        <p>Eu sou um Cariocas.
+        <button>+5 min.</button></p>
     </div>
 
     <!-- #3 #chat #container -->
@@ -169,7 +170,13 @@
         <p>北京</p>
         <button>+5 min.</button>
     </div>
-</div>
+
+    <div id="chat-bar"> 
+        <button id="emojis-button"><img src="http://ip.lfe.mw.tum.de/sections/smile-o.png" alt="smiley">  &#128513; &#128514; &#128515;&#128516; &#128517;
+        </button>
+       <!-- <div id="emojis">&#128513; &#128514; &#128515;&#128516; &#128517;-->
+         </div>
+    </div>
 
 </body>
 </html>
