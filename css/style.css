@@ -58,6 +58,7 @@ ul {
     background-color: white;
     /* #3 #channels #bullets removed */
     list-style-type: none;
+    overflow-y:scroll;
 }
 
 li {
@@ -85,7 +86,7 @@ span {
     /* span images*/
     vertical-align: middle;
     position: absolute;
-    right: 10px;
+    right: 20px;
 }
 
 /* TAB BAR */
@@ -133,6 +134,7 @@ position: absolute;
 right: 0px;
 height: 100%;
 width: 60%;
+overflow-y:scroll;
 }
 
 /* MESSAGES */
@@ -188,6 +190,7 @@ width: 60%;
 
  #chat-bar
  {
+    position: absolute;
     border: 1px solid black;
     height: 150px;
     width: 150px;
@@ -196,8 +199,8 @@ width: 60%;
     margin-bottom: 8px;
     font-size: 28px;
     text-align: left;
-    position: auto;
     margin-top: 284x;
     margin-left: 16px;
+    z-index:10;
  }
 
