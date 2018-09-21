@@ -204,3 +204,14 @@ overflow-y:scroll;
     z-index:10;
  }
 
+ /* Set link color to primary text*/
+ a {
+    color: white;
+}
+
+.appstar
+{
+    vertical-align: top;
+    position: absolute;
+    right: 16px;
+}
